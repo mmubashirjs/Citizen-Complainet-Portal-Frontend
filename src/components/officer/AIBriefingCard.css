@@ -1,0 +1,114 @@
+.ai-briefing-card {
+  background-color: var(--primary-subtle);
+  border: 1.5px solid var(--primary-light);
+  border-radius: var(--radius-md);
+  padding: 1.35rem 1.5rem;
+  margin-bottom: 1.75rem;
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  overflow: hidden;
+}
+
+.ai-briefing-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background-color: var(--primary);
+}
+
+.ai-briefing-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.85rem;
+}
+
+.ai-briefing-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: var(--primary-dark);
+  letter-spacing: 0.05em;
+  background-color: var(--white);
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--primary-light);
+  box-shadow: 0 1px 3px rgba(0, 152, 70, 0.1);
+}
+
+.sparkles-icon {
+  color: var(--accent);
+}
+
+.ai-briefing-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.refresh-briefing-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+}
+.refresh-briefing-btn:hover {
+  color: var(--primary);
+  background-color: var(--white);
+}
+
+.spinning {
+  animation: spin 1s linear infinite;
+}
+
+.ai-briefing-summary {
+  font-size: 1rem;
+  color: var(--text-main);
+  line-height: 1.6;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.ai-insights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0.75rem;
+  border-top: 1px dashed var(--border-dark);
+  padding-top: 0.85rem;
+}
+
+.ai-insight-pill {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  background-color: var(--white);
+  padding: 0.6rem 0.85rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-color);
+  font-size: 0.82rem;
+}
+
+.insight-icon {
+  color: var(--primary);
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.insight-title {
+  color: var(--text-main);
+}
+
+.insight-text {
+  color: var(--text-muted);
+}

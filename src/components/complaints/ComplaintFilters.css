@@ -1,0 +1,36 @@
+.complaint-filters-card {
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.filters-top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.filters-search-wrap {
+  flex: 1;
+  min-width: 280px;
+}
+
+.filters-top-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.filters-dropdowns-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem;
+}
+
+.filters-dropdowns-grid .form-group {
+  margin-bottom: 0;
+}

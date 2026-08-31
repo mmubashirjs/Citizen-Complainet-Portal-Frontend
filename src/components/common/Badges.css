@@ -1,0 +1,74 @@
+/* Neumorphic Status Badges */
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-full);
+  font-size: 0.8rem;
+  font-weight: 700;
+  background-color: var(--bg-page);
+  box-shadow: var(--neu-shadow-sm);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.status-pending {
+  color: var(--black);
+}
+.status-pending .status-dot {
+  background-color: var(--text-muted);
+}
+
+.status-in-progress {
+  color: var(--primary-dark);
+}
+.status-in-progress .status-dot {
+  background-color: var(--primary);
+  animation: pulseGlow 1.5s infinite;
+}
+
+.status-resolved {
+  color: var(--primary);
+}
+.status-resolved .status-dot {
+  background-color: var(--primary);
+}
+
+/* Neumorphic Priority Badges */
+.priority-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  background-color: var(--bg-page);
+  box-shadow: var(--neu-shadow-sm);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.priority-low {
+  color: var(--primary);
+}
+
+.priority-medium {
+  color: var(--black);
+}
+
+.priority-high {
+  color: var(--primary-dark);
+}
+
+.priority-critical {
+  color: var(--danger);
+  border: 1px solid rgba(214, 40, 40, 0.3);
+  box-shadow: 4px 4px 10px rgba(214, 40, 40, 0.2), -4px -4px 10px rgba(255, 255, 255, 0.9);
+}

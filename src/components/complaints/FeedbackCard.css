@@ -1,0 +1,100 @@
+.feedback-card {
+  padding: 1.5rem;
+  background-color: var(--white);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  margin-top: 1.5rem;
+}
+
+.feedback-header {
+  margin-bottom: 1.25rem;
+}
+
+.feedback-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 0.25rem;
+}
+
+.feedback-subtitle {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.feedback-rating-group {
+  margin-bottom: 1.25rem;
+}
+
+.stars-picker {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.4rem;
+}
+
+.star-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 2px;
+  transition: transform 0.15s ease;
+}
+
+.star-btn:hover {
+  transform: scale(1.15);
+}
+
+.star-icon {
+  color: #D1D8D3;
+  fill: #D1D8D3;
+  transition: all 0.15s ease;
+}
+
+.star-active {
+  color: var(--accent);
+  fill: var(--accent);
+}
+
+.rating-label-text {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-left: 0.75rem;
+}
+
+/* Submitted State Styling */
+.feedback-submitted-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1.5rem;
+  background-color: var(--primary-subtle);
+  border-color: var(--primary-light);
+}
+
+.feedback-success-icon {
+  color: var(--primary);
+  margin-bottom: 0.75rem;
+}
+
+.feedback-submitted-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--primary-dark);
+  margin-bottom: 0.5rem;
+}
+
+.feedback-stars {
+  display: flex;
+  gap: 0.3rem;
+  margin-bottom: 0.75rem;
+}
+
+.feedback-comment-quote {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--text-muted);
+  max-width: 450px;
+}

@@ -1,0 +1,74 @@
+:root {
+  /* Neumorphic Palette: Crisp White, Black & Electric Green */
+  --primary: #009846;
+  --primary-dark: #007335;
+  --primary-light: #E4F5EC;
+  --primary-subtle: #EEF8F2;
+  --primary-glow: rgba(0, 152, 70, 0.25);
+
+  --accent: #009846;
+  --accent-hover: #007335;
+  --accent-light: #E4F5EC;
+
+  /* High Contrast Black & White Foundation */
+  --black: #080C09;
+  --white: #FFFFFF;
+  --bg-page: #EFEFEF;
+  --bg-surface: #EFEFEF;
+  --bg-subtle: #E8ECE9;
+  --card-bg: #EFEFEF;
+  
+  --border-color: rgba(0, 0, 0, 0.05);
+  --border-dark: rgba(0, 0, 0, 0.12);
+
+  /* High Contrast Typography */
+  --text-main: #0A0F0C;
+  --text-body: #1F2922;
+  --text-muted: #526357;
+  --text-light: #7A8C80;
+  --text-inverse: #FFFFFF;
+
+  /* Neumorphic Extrusion Shadows (Light Source: Top-Left) */
+  --neu-shadow-flat: 6px 6px 14px rgba(180, 190, 184, 0.45), -6px -6px 14px rgba(255, 255, 255, 0.95);
+  --neu-shadow-hover: 10px 10px 22px rgba(170, 182, 175, 0.55), -10px -10px 22px rgba(255, 255, 255, 1);
+  --neu-shadow-pressed: inset 4px 4px 8px rgba(175, 185, 179, 0.5), inset -4px -4px 8px rgba(255, 255, 255, 0.95);
+  --neu-shadow-sm: 4px 4px 9px rgba(180, 190, 184, 0.35), -4px -4px 9px rgba(255, 255, 255, 0.9);
+  --neu-shadow-green: 6px 6px 16px rgba(0, 152, 70, 0.3), -6px -6px 16px rgba(255, 255, 255, 0.9);
+
+  /* Status Colors */
+  --status-pending-text: #000000;
+  --status-pending-bg: #EFEFEF;
+  
+  --status-progress-text: #009846;
+  --status-progress-bg: #EFEFEF;
+
+  --status-resolved-text: #009846;
+  --status-resolved-bg: #EFEFEF;
+
+  /* Priority Badges */
+  --priority-low-text: #009846;
+  --priority-low-bg: #EFEFEF;
+
+  --priority-medium-text: #080C09;
+  --priority-medium-bg: #EFEFEF;
+
+  --priority-high-text: #009846;
+  --priority-high-bg: #EFEFEF;
+
+  --priority-critical-text: #D62828;
+  --priority-critical-bg: #EFEFEF;
+
+  /* Typography Families */
+  --font-heading: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Radius System */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  /* Motion */
+  --transition-fast: 0.2s cubic-bezier(0.2, 0, 0, 1);
+  --transition-normal: 0.3s cubic-bezier(0.2, 0, 0, 1);
+}
